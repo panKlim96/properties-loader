@@ -1,0 +1,5 @@
+config:
+  carsProperties:
+    model: "VAZ"
+    cost: 1200000.0
+    number: 6

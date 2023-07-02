@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.teachbase.PropLoaderStarterApplication
+org.springframework.boot.env.EnvironmentPostProcessor=com.teachbase.postProcessor.PropertiesLoaderEnvironmentPostProcessor

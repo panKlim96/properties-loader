@@ -1,0 +1,12 @@
+#docker-compose.yml
+version: '2'
+services:
+  config-server-env:
+    container_name: config-server-env
+    image: hyness/spring-cloud-config-server:2.2
+    ports:
+      - "8888:8888"
+    environment:
+      SPRING_PROFILES_ACTIVE: native
+    volumes:
+      - ./config:/config

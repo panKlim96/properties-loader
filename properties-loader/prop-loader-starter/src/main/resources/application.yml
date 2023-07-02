@@ -1,0 +1,2 @@
+app:
+  cars-properties-config-file: "classpath:cars-properties.yml"
